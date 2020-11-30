@@ -178,6 +178,7 @@ describe('Dashboard', () => {
     expect(getByText('Website Hosting')).toBeTruthy();
     expect(getByText('- R$ 50,00')).toBeTruthy();
     expect(getByText('Hosting')).toBeTruthy();
+
   });
 
   it('should be able to navigate to the import page', async () => {
